@@ -77,7 +77,7 @@ class DataListing extends Component {
             key={number}
             id={number}
             onClick={this.handleClick}
-            style={{pointer: 'cursor'}}
+            style={{cursor: 'pointer'}}
             >
             {number}
             </li>
