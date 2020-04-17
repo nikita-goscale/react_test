@@ -1,14 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
 import DataListing from './components/dataListing';
+import 'bootstrap/dist/css/bootstrap.css'
+import AppRoutes from './AppRoutes';
 
-function App() {
-  return (
+class App extends Component {
+  render() { 
+    return (
     <div className="App">
-      <DataListing />
+      <AppRoutes/>
+      <DataListing/>
     </div>
-  );
+    );
+  }
 }
 
 export default App;
